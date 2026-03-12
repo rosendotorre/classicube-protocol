@@ -557,31 +557,7 @@ El chat no llega al remitente
 
 
 ----------------------------------------------------------------
-13. PROXIMOS PASOS
-----------------------------------------------------------------
 
-- CPE (ClassiCube Protocol Extensions)
-  Bloques custom, mensajes largos, velocidad, modelos
-
-- Autenticacion real
-  https://www.classicube.net/api/login/
-
-- Persistencia del mapa
-  Guardar blocks[] en disco con fs.writeFileSync
-
-- Multiples mundos
-  Repetir sendLevel() + sendLevelFinalize() al cambiar sala
-
-- Rate limiting de bloques
-  Limitar SetBlock por segundo para evitar griefing
-
-- Anticheat basico
-  Validar que el delta de movimiento sea razonable
-
-
-================================================================
-  protocol-classicube · MIT License · Node.js 14+
-================================================================
 
 ⚠️ Beta Notice
 
