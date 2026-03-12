@@ -582,3 +582,11 @@ El chat no llega al remitente
 ================================================================
   protocol-classicube · MIT License · Node.js 14+
 ================================================================
+
+⚠️ Beta Notice
+
+protocol-classicube is currently in beta.
+
+The core implementation of the ClassiCube / Classic Minecraft protocol is mostly complete, but the public API and internal structures may still change in future versions.
+
+You may encounter bugs or incomplete features while the project continues to evolve
