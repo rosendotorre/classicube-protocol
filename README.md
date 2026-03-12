@@ -1,9 +1,5 @@
 # classicube-protocol
 
-================================================================
-  protocol-classicube — Tutorial completo
-  Cliente & Servidor · Node.js · Sin dependencias externas
-================================================================
 
 
 ----------------------------------------------------------------
