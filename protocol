@@ -1,0 +1,35 @@
+/**
+ * ClassiCube Protocol - Packet IDs
+ * Based on the Classic Minecraft / ClassiCube protocol spec
+ */
+
+const PacketIDs = {
+  // Server -> Client
+  SERVER: {
+    SERVER_IDENTIFICATION: 0x00,
+    PING:                  0x01,
+    LEVEL_INITIALIZE:      0x02,
+    LEVEL_DATA_CHUNK:      0x03,
+    LEVEL_FINALIZE:        0x04,
+    SET_BLOCK:             0x06,
+    SPAWN_PLAYER:          0x07,
+    PLAYER_TELEPORT:       0x08,
+    PLAYER_UPDATE:         0x09,
+    PLAYER_MOVE:           0x0A,
+    PLAYER_ROTATE:         0x0B,
+    DESPAWN_PLAYER:        0x0C,
+    CHAT_MESSAGE:          0x0D,
+    DISCONNECT:            0x0E,
+    UPDATE_USER_TYPE:      0x0F,
+  },
+
+  // Client -> Server
+  CLIENT: {
+    PLAYER_IDENTIFICATION: 0x00,
+    SET_BLOCK:             0x05,
+    PLAYER_TELEPORT:       0x08,
+    CHAT_MESSAGE:          0x0D,
+  },
+};
+
+module.exports = PacketIDs;
